@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'Ikaros-Regular';
+    src: url('../fonts/Ikaros-Regular.otf');
+}
+.bgimg-1{
+
+
+    background-image: url("../../images/originalBack.jpg");
+    background-size: cover;
+    width: 100%;
+    height:100%;
+	transform: translateX(-50%);
+    overflow: hidden;
+    background-position: center;
+    top:0%;
+    left:50%;
+    position: fixed; 
+    filter: brightness(95%);
+}
+h1{
+    font-family: 'Ikaros-Regular';
+    font-size: 3.1em;
+    letter-spacing: 3px;
+    background: -webkit-linear-gradient(black, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-wrap: break-word;
+}
+
+
+
+.centerName{
+    top:20%;
+
+    position: fixed;
+
+}
+
+.frontCanyon{
+    background-image: url("../../images/frontCanyon.png");
+    background-size: cover;
+    background-position: center;
+    top:0%;
+    left:50%;
+	position: fixed;
+    min-width: 100%;
+    height:100%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    padding-bottom: 55%;
+    filter: brightness(85%);
+
+
+}
+.frontClear{
+    padding-top: 10000px;
+    position: relative;
+}
+
+

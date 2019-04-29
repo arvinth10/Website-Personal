@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Ikaros-Regular';
+    src: url('../fonts/Ikaros-Regular.otf');
+}
+
+
+.navbar{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Ikaros-Regular';
+    text-transform: uppercase;
+    /* position:relative; */
+    color: black;
+}
+
+.line{border-bottom:1px solid rgb(0,0,0);padding-bottom:2px};
+
+.navbar-dark.navbar-nav.nav-link.black{
+    color:black;
+
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+  }
+
+.black{
+    color:black;
+}
+
+
+.white{
+    background-color: white;
+}
+
+.transparent{
+    background-color:transparent; 
+}
+h5{ 
+    font-family: 'Ikaros-Regular';
+    font-size: 1em;
+    text-transform: uppercase;
+
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles/css/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/about.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="styles/css/form.css">
+
+
+    <script src="scripts/frontZoom.js"></script>
+    <script src="scripts/formScript.js"></script>
+    <script src="scripts/navBar.js"></script>
+    <script src="scripts/aboutScript.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130699938-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-130699938-1');
+    </script>
+
+    <title>Arvinth Vijayanathan | CS Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="Arvinth Vijayanathan is an aspiring Software Developer. Currently seeking an software internship for the 2019 Summer Term.">
+    <meta name="keywords" content="Software,developer,computer,science,machine,learning,html,java,css,javascript,technologies">
+</head>
+
+<body>
+
+
+    <nav id="nav" class="navbar navbar-dark navbar-expand-md bg-fade fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Arvinth</a>
+            <button id="nav-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarsExampleDefault"
+                aria-expanded="false" aria-label="Toggle navigation" onclick=navBarClick()>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navLinker">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link "  href="#about" >About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#more">More</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#message">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="home" class="bgimg-1" deluminate_imagetype="jpg">
+    </div>
+    <div id="frontCanyon" class="frontCanyon" deluminate_imagetype="png">
+    </div>
+    <div class="frontClear container row">
+        <div class="centerName col-lg-12 text-center">
+            <h1>ARVINTH VIJAYANATHAN</h1>
+        </div>
+    </div>
+    <div id="about" class="subsecPadding whiteSection ">
+        <div class="container">
+            <div class ="row">
+                <h2>A little about me</h2>
+                <br />
+                <p>Recently completed my third year of my Bachelors of Science
+                    degree in the Computer Science Specialist Stream. Software
+                    development has interested me for some time now; the ability
+                    to build anything my imagination limits and challenging
+                    myself on daily basis keeps me inspired. 
+                </p>
+                <p>Outside of programming, I love to explore new things. This
+                    includes travelling to different countries, trying new activites,
+                    and exploring different cultures.
+                </p>
+            </div>
+
+            <div class ="row ">
+                <div class = col-md-1> </div>
+                <div class=" col-md-10 col-sm-12 text-center">
+                    <img src = "images/IMG_6689.PNG" class = "selfImage" onmouseover="hover(this);" onmouseout="unhover(this);" alt="Paragliding in Colombia"/>
+                </div>
+                <div class = col-md-1> </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div id="work" class="subsecPadding imageSection middleCanyon parrallax">
+        <div class=container>
+            <h2>What I've done</h2>
+            <br />
+            <div class="container row">
+                <div class="col-md-3">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-1">
+                    <img src="images/intersect.jpg" class="symbility" alt="Intersect">
+                </div>
+                <div class="col-md-2 col-lg-1">
+                    <!-- Space -->
+                </div>
+
+                <div class="col-md-5 margin10">
+                    <h3>Intersect</h3>
+                    <h4>Engineer in Test Co-op</h4>
+                </div>
+            </div>
+            <br/>
+            <div class="container row">
+                <div class="col-md-3">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-1">
+                    <img src="images/Indigo.png" alt="Indigo">
+                </div>
+                <div class="col-md-2 col-lg-1">
+                    <!-- Space -->
+                </div>
+
+                <div class="col-md-5 margin10">
+                    <h3>Indigo Books and Music</h3>
+                    <h4>Junior QA Developer Co-op</h4>
+                </div>
+
+
+            </div>
+            <br />
+            <div class="container row ">
+                <div class="col-md-3">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-1 ">
+                    <img src="images/blank.png" class="bmo" alt="BMO">
+                </div>
+                <div class="col-md-2 col-lg-1">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-5 margin10">
+                    <h3>Bank of Montreal</h3>
+                    <h4>Project Management Intern</h4>
+                </div>
+            </div>
+            <br />
+            <div class="container row">
+                <div class="col-md-3">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-1">
+                    <img src="images/uoft.jpeg" class="uoft" alt="University of Toronto">
+                </div>
+                <div class="col-md-2 col-lg-1">
+                    <!-- Space -->
+                </div>
+                <div class="col-md-5 margin10">
+                    <h3>University of Toronto</h3>
+                    <h4>Computer Science Specialist <br /><small>(BSc in Progress)</small></h4>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="more" class="subsecPadding whiteSection">
+        <div class="container">
+            <h2>Learn more</h2>
+            <br />
+            <div class="row mt-10">
+                <div class="col-md-4 text-center margin17" >
+                    <div class="row fab fa-github-square fa-5x hoverOrange" onclick="window.open('https://github.com/arvinth10')"></div>
+                    <div class="row text-center">
+                        <div class="col-md-12 text-center">
+                            <h3>GitHub</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 text-center margin17" >
+                    <div class="row fas fa-file  fa-5x hoverOrange" onclick="window.open('Arvinth.pdf')"></div>
+                    <div class="row text-center">
+                        <div class="col-md-12 text-center">
+                            <h3>Resume</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 text-center margin17">
+                    <div class="row fab fa-linkedin  fa-5x hoverOrange" onclick="window.open('https://www.linkedin.com/in/arvinth-vijayanathan/')"></div>
+                    <div class="row text-center">
+                        <div class="col-md-12 text-center">
+                            <h3>Linkedin</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="message" class="subsecPadding imageSection parrallax middleCanyon">
+
+        <div class="container">
+            <h2>Send me a message!</h2>
+            <!--https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870-->
+            <div class="row">
+            <div class="col-md-2">
+                <!--Spacer-->
+            </div>
+            <div class="col-md-8">
+                <form id="messageForm" method="POST">
+                    <div class="form-group">
+                        <input type="text" required="required" name="name">
+                        <label for="name1" class="control-label">Name</label>
+                        <i class="bar"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required="required" name="_replyto">
+
+                        <label for="email1" class="control-label">Email</label>
+                        <i class="bar"></i>
+                    </div>
+                    <div class="form-group">
+                        <textarea type="text" required="required" id="text1" name="message"></textarea>
+                        <label for="text1" class="control-label">Your Message!</label>
+                        <i class="bar"></i>
+                    </div>
+                    <input type="hidden" name="_subject" value="Website contact" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <div class="button-container">
+                        <button type="sumbit" class="button"><span>Submit</span></button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-2">
+                <!--Spacer-->
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="footer" class="parrallax">
+        <h4>Arvinth Vijayanathan<h4>
+    </div>
+
+
+</body>
+
+
+</html>

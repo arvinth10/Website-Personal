@@ -1,0 +1,146 @@
+@font-face{
+    font-family: 'Ikaros-Light';
+    src: url('../fonts/Ikaros-Light.otf');
+}
+
+@font-face{
+    font-family: 'Ikaros-Regular';
+    src: url('../fonts/Ikaros-Regular.otf');
+}
+
+h2{
+    font-family: 'Ikaros-Regular', sans-serif;
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    text-transform: uppercase;    
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8em;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 425px) {
+    h2{
+    font-size: 1.8em;
+    }
+    h3{
+        font-size: 1.6em;
+        }
+    h4{
+        font-size: 1.3em;
+        }
+    p{
+        font-size: 1.2em;
+        }
+}
+
+h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+}
+
+.subsecPadding{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:65px;
+    padding-bottom: 45px;
+    position: relative;
+}
+
+.whiteSection.subsecPadding{
+    color:#3e4130;
+    background-color: white;
+
+}
+
+.imageSection.subsecPadding{
+    color:white;
+    background-color: #3a3728;
+}
+
+#footer{
+    text-align: center;
+    color:grey;
+    background-color: black;
+    padding:0.5%;
+    font-size: 0.8em !important;
+}
+
+.parrallax{
+    min-height: 100%;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.middleCanyon{
+    /* background-image: url("../../images/canyonMiddleLight.jpg"); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/canyonMiddleLight.jpg");
+
+}
+
+.margin17{
+    margin-top:17px
+}
+
+
+.hoverOrange:hover{
+    color:  #FF8C00;
+}
+
+
+.margin10{
+    margin-top:17px;
+}
+
+img{
+    margin-top:4px;
+    border-radius: 4px; 
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 16px;
+    padding-left:16px;
+    background-color: white;
+
+
+}
+img.bmo{
+    margin-top:3px;
+    padding: 0px;
+
+}
+img.symbility{
+    margin-top:3px;
+    padding: 0px;
+
+}
+
+img.uoft{
+    margin-top: 14px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-right: 0px;
+    padding-left:0px;
+
+    
+}
+
+img.selfImage{
+    width:100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left:0px;
+}
